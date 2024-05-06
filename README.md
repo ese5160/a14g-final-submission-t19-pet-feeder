@@ -23,8 +23,17 @@ The load cell is used to measure the weight data and the ADC is used to converte
 3. ST7735 LCD TFT Screen
 The LCD screen is used to display the weight data measured from the load cell, which is connected to the SAMW25 chip by SPI communication. Although we have learned the basic initialization and LCD function in ESE5190 class last semester, we still met unexpected problems in SPI configuration. The SCK and MOSI pins must be under the same SERCOM, and needed to be defined with the `CONF_MASTER_PINMUX_PAD`.
 
-4. Internet Augment
+4. Internet Augment  
 Enable users to control and monitor the device remotely through a web or mobile application. This could involve turning devices on/off(SG90 motor), adjusting settings, or receiving real-time data updates from sensors(load cell). Utilize cloud services to store data collected by the device. This data can then be analyzed to provide insights, trends, or predictive maintenance alerts. Cloud platforms like AWS, Google Cloud, or Microsoft Azure offer various tools for data storage, processing, and analysis. Implement FOTA capabilities to remotely update device firmware. This ensures that devices can receive bug fixes, security patches, or new features without requiring physical access or manual intervention.
+
+### Inspiration
+The project is inspired by my friend who has a cute but hungry cat. We need to feed it two or three times per day, but we are very busy studying in the campus. Therefore, we want to design a pet feeder which can provide the food for the cat in home while we are studying in the school. 
+
+1. Remote Feeding: Create a system that allows pet owners to feed their pets remotely using a mobile app or web interface. This could be particularly useful for pet owners who are away from home for extended periods.  
+2. Scheduled Feeding: Implement scheduling functionality that enables pet owners to set specific times for automatic feeding. This ensures that pets receive their meals on time, even when their owners are busy or away.  
+3. Portion Control: Incorporate portion control features that allow pet owners to dispense precise amounts of food for each feeding. This helps prevent overfeeding or underfeeding and ensures that pets receive the appropriate amount of nutrition.  
+4. Customizable Diet Plans: Provide pet owners with the ability to create customized diet plans tailored to their pets' specific dietary needs and preferences. This could involve setting different portion sizes or types of food for each meal.
+5. Food Monitoring: Integrate sensors or cameras to monitor food levels in the feeder and send alerts when it's time to refill. This helps ensure that pets always have access to food and prevents them from going hungry.
 
 ## 3. Hardware & Software Requirements
 
