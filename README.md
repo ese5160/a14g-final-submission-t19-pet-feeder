@@ -21,7 +21,7 @@ The servo motor is used to turn on and off the food storage. It is much more com
 The load cell is used to measure the weight data and the ADC is used to converter the raw data to the real value, which is communicated with the MCU through the I2C protocol. The problem of this device is that there are numerous registers in the datasheet, which is necessary to find out how assign them correctly. This is the essential part of the ADC chip working because the wrong initialization of the registers will lead to the unsuccessful value read. After figuring out the correct presetting of the ADC, the calibration and handling of raw data is also a huge problem. In the end, though the real weight converting is still not so accurate, but we at least can measure the load cell value with the correct tendency.
 
 3. ST7735 LCD TFT Screen
-The LCD screen is used to display the weight data measured from the load cell, which is connected to the SAMW25 chip by SPI communication. Although we have learned the basic initialization and LCD function in ESE5190 class last semester, we still met unexpected problems in SPI configuration. The SCK and MOSI pins must be under the same SERCOM, and needed to be defined with the correspond `CONF_MASTER_PINMUX_PAD`.
+The LCD screen is used to display the weight data measured from the load cell, which is connected to the SAMW25 chip by SPI communication. Although we have learned the basic initialization and LCD function in ESE5190 class last semester, we still met unexpected problems in SPI configuration. The SCK and MOSI pins must be under the same SERCOM, and needed to be defined in the correspond `CONF_MASTER_PINMUX_PAD`.
 
 ## 3. Hardware & Software Requirements
 
