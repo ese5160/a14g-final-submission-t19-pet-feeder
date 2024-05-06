@@ -23,6 +23,9 @@ The load cell is used to measure the weight data and the ADC is used to converte
 3. ST7735 LCD TFT Screen
 The LCD screen is used to display the weight data measured from the load cell, which is connected to the SAMW25 chip by SPI communication. Although we have learned the basic initialization and LCD function in ESE5190 class last semester, we still met unexpected problems in SPI configuration. The SCK and MOSI pins must be under the same SERCOM, and needed to be defined with the `CONF_MASTER_PINMUX_PAD`.
 
+4. Internet Augment
+Enable users to control and monitor the device remotely through a web or mobile application. This could involve turning devices on/off(SG90 motor), adjusting settings, or receiving real-time data updates from sensors(load cell). Utilize cloud services to store data collected by the device. This data can then be analyzed to provide insights, trends, or predictive maintenance alerts. Cloud platforms like AWS, Google Cloud, or Microsoft Azure offer various tools for data storage, processing, and analysis. Implement FOTA capabilities to remotely update device firmware. This ensures that devices can receive bug fixes, security patches, or new features without requiring physical access or manual intervention.
+
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
