@@ -48,6 +48,11 @@ We encountered a lot of unexpected problems on this project both in hardware and
 2. Initially, we prepare to use an ultrasonic distance senso HC-SR04 to detect the location of the pets. We previously thought that this sensor simply needs two GPIO to control, but it needs the trig and echo pin applied with the PWM signals. Unfortunately, the pins we assigned for the trig and echo pins have no TCC counter attached, which cannot support the PWM signal generation. So we cancel this sensor in the end.
 3. We met the design problem of connecting the I2C pins `SCL` and `SDA` in wrong direction, which I attached the `SCL` signal to the PA08 and `SDA` signal to the PA09. I firstly wanted to change the codes to solve this problem, but we found that it was hard to achieve since all the pin functions are set as the starter project. Finally, it was solved by disconnected the I2C jumpers and resoldered the correct connections to make the I2C device working.
 
+### Prototype Learnings
+
+1. We gained extensive knowledge about testing methodologies, testing from the specific region to the entire system. We firstly tested the function of two power regulators, first testing the boost converter, and then the buck converter. After making sure both the converters are outputting the correct voltage, we tested the whole power module is working. We implemented lots of 0Ohm resistors as jump wires, which proved instrumental in facilitating the measurement of various system components' performance, particularly those that had not been previously explored. Our exposure to standardized testing methodologies has furnished us with invaluable insights and skills that will prove beneficial in our future endeavors.
+2. If given the chance to redesign, we might opt to swap out the 0805 packages with the 0603 as it offers better accessibility for measurement purposes. Alternatively, we could incorporate additional Testpoints into the design. Additionally, we aspire to refine the board's layout to make it more compact and increase its density.
+
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
