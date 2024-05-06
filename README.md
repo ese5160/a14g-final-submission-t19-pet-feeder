@@ -46,7 +46,7 @@ We encountered a lot of unexpected problems on this project both in hardware and
 
 1. We want to use the TCC timer counter to generate the PWM signal, but we met the problem that once the timer counter compare match value is set in system initialization, it is hard to modify later to change the rotation angle of the motor. We solved it by using the `tcc_set_compare_value` function.
 2. Initially, we prepare to use an ultrasonic distance senso HC-SR04 to detect the location of the pets. We previously thought that this sensor simply needs two GPIO to control, but it needs the trig and echo pin applied with the PWM signals. Unfortunately, the pins we assigned for the trig and echo pins have no TCC counter attached, which cannot support the PWM signal generation. So we cancel this sensor in the end.
-3. We met the design problem of connecting the I2C pins `SCL` and `SDA` in wrong direction, which I attached the `SCL` signal to the PA08 and `SDA` signal to the PA09. I firstly wanted to change the codes to solve this problem, but we found that it was hard to achieve since all the pin functions are set as the starter project. Finally, disconnect the I2C jumpers and resoldered the correct connections to make the I2C device working.
+3. We met the design problem of connecting the I2C pins `SCL` and `SDA` in wrong direction, which I attached the `SCL` signal to the PA08 and `SDA` signal to the PA09. I firstly wanted to change the codes to solve this problem, but we found that it was hard to achieve since all the pin functions are set as the starter project. Finally, it was solved by disconnected the I2C jumpers and resoldered the correct connections to make the I2C device working.
 
 ## 3. Hardware & Software Requirements
 
