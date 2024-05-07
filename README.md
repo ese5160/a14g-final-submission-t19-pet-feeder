@@ -8,6 +8,7 @@
     * Description of test hardware: Dell XPS13, Windows 11
 
 ## 1. Video Presentation
+
 The video link:
 
 ## 2. Project Summary
@@ -52,6 +53,15 @@ We encountered a lot of unexpected problems on this project both in hardware and
 
 1. We gained extensive knowledge about testing methodologies, testing from the specific region to the entire system. We firstly tested the function of two power regulators, first testing the boost converter, and then the buck converter. After making sure both the converters are outputting the correct voltage, we tested the whole power module is working. We implemented lots of 0Ohm resistors as jump wires, which proved instrumental in facilitating the measurement of various system components' performance, particularly those that had not been previously explored. Our exposure to standardized testing methodologies has furnished us with invaluable insights and skills that will prove beneficial in our future endeavors.
 2. If given the chance to redesign, we might opt to swap out the 0805 packages with the 0603 as it offers better accessibility for measurement purposes. Alternatively, we could incorporate additional Testpoints into the design. Additionally, we aspire to refine the board's layout to make it more compact and increase its density.
+
+### Next Steps
+
+1. We can add more useful functions on the project, such as including a motor driver(DRV8801/DRV8803) to control the water pump, which can provide the pet not only the food, but also the water to drink.
+2. We can implemented the feedback control algorithm to add another feeding mode that always fill the food with the fixed value, which will provide the pet always have the enough food to eat.
+
+### Takeaways from ESE5160
+
+We acquired a wealth of invaluable knowledge throughout our project journey. From the intricacies of PCBA design to the intricacies of programming and firmware uploading, each step presented its own set of challenges and learning opportunities. Notably, we gained significant insights into PCB design and the utilization of FreeRTOS. Additionally, we deepened our understanding of I2C and SPI protocols, which honed our skills in unit testing and debug-thinking, further enriching our learning experience.
 
 ## 3. Hardware & Software Requirements
 
