@@ -23,10 +23,10 @@
     - [Software Requirements](#software-requirements)
   - [4. Project Photos \& Screenshots](#4-project-photos--screenshots)
 
-
 ## 1. Video Presentation
 
-The video link:
+The video link:  
+https://youtu.be/EbyY6kcCnu8
 
 ## 2. Project Summary
 
