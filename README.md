@@ -7,6 +7,23 @@
     * Github Repository URL: https://github.com/ese5160/a14g-final-submission-t19-pet-feeder
     * Description of test hardware: Dell XPS13, Windows 11
 
+- [a14g-final-submission](#a14g-final-submission)
+  - [1. Video Presentation](#1-video-presentation)
+  - [2. Project Summary](#2-project-summary)
+    - [Device Description](#device-description)
+    - [Inspiration](#inspiration)
+    - [Device Functionality](#device-functionality)
+    - [Challenges](#challenges)
+    - [Prototype Learnings](#prototype-learnings)
+    - [Next Steps](#next-steps)
+    - [Takeaways from ESE5160](#takeaways-from-ese5160)
+    - [Project links](#project-links)
+  - [3. Hardware \& Software Requirements](#3-hardware--software-requirements)
+    - [Hardware Requirements](#hardware-requirements)
+    - [Software Requirements](#software-requirements)
+  - [4. Project Photos \& Screenshots](#4-project-photos--screenshots)
+
+
 ## 1. Video Presentation
 
 The video link:
