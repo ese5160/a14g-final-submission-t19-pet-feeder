@@ -65,10 +65,10 @@ We acquired a wealth of invaluable knowledge throughout our project journey. Fro
 
 ### Project links
 
-The Node-RED instance link:
-
-The code repository link:
-
+The Node-RED instance link:  
+http://68.154.49.115:1880/ui/#!/0?socketid=DRc2CLKWRofETc06AAAW  
+The code repository link:  
+https://github.com/ese5160/a12g-firmware-drivers-t19-pet-feeder/tree/main/Final_submission  
 The Altium 365 link:  
 https://upenn-eselabs.365.altium.com/designs/EA1CCED6-8C54-4405-B127-DA898DF3EFB7#design
 
@@ -130,8 +130,10 @@ The Altium Board design in 3D view.
 ![3D](Pic/board3D.png)
 
 Node-RED dashboard
+![dashboard](Pic/dashboard.png)
 
 Node-RED backend
+![backend](Pic/backend.png)
 
 Block diagram of the system.
 ![block](Pic/blockdiagram.png)
