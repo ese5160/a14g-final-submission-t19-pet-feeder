@@ -74,6 +74,41 @@ https://upenn-eselabs.365.altium.com/designs/EA1CCED6-8C54-4405-B127-DA898DF3EFB
 
 ## 3. Hardware & Software Requirements
 
+### Hardware Requirements
+
+1. Overview of Hardware Components:  
+The hardware aspect of the project comprised several components including the SAMW25 MCU, load cells, ultrasonic distance sensor, servo motor, and LCD display.
+2. Description of Components:  
+Each component was carefully selected and described in detail, specifying its functionality, datasheet references, and purpose within the project.
+The load cells were intended to measure food weight, while the ultrasonic distance sensor aimed to detect the pet's position. The servo motor controlled the food release mechanism, and the LCD display provided real-time information.
+3. Functionality:  
+Most hardware components, such as the load cells, servo motor, and LCD display, operated as intended and aligned with the project's specifications.
+However, the distance sensor encountered issues, failing to accurately measure distance or provide reliable data regarding pet position.
+4. Potential Causes of Sensor Failure:
+The failure of the distance sensor was attributed to hardware malfunction: incorrect wiring with compatibility issues with the MCU.
+5. Mitigation Steps Taken:
+Throughout the semester, efforts were made to troubleshoot and resolve the issue with the distance sensor, including checking connections, reconfiguring setups, and reviewing software implementations.
+6. Outcome:
+Despite troubleshooting attempts, the distance sensor remained non-functional by the end of the semester, posing a notable challenge to the project's completeness.
+
+### Software Requirements
+
+1. Overview of Software Architecture:  
+The software aspect of the project operated in two parts: one on the MCU for data processing and actuation, and the other on the cloud or MCU acting as a web server for user interaction.
+MQTT facilitated communication between these two parts.
+2. Functionality:  
+The software fulfilled specified functionalities outlined in the Software Requirements Specification (SRS), including bootloader initialization, main loop operation, sensor data handling, actuator control, LCD display, MQTT configuration, and web app features.
+3. User Interface:  
+The web app provided a user-friendly interface accessible via phone or laptop, displaying machine/environment status and offering buttons for sending instructions.
+4. Integration with Hardware:  
+The software successfully integrated with hardware components, collecting data from sensors, operating actuators based on certain conditions, and receiving messages through MQTT.
+5. Testing and Validation:  
+Throughout development, rigorous testing and validation procedures were implemented to ensure software functionalities operated as intended and aligned with project requirements.
+6. Outcome:  
+Despite challenges with the distance sensor, the software aspect of the project functioned effectively, meeting user needs and providing a seamless interaction experience.
+
+In conclusion, while the hardware aspect faced challenges with the distance sensor, the software aspect operated successfully, fulfilling specified requirements and ensuring the project's overall functionality and usability.
+
 ## 4. Project Photos & Screenshots
 
 The final project photo.
