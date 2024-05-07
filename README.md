@@ -99,4 +99,4 @@ Node-RED dashboard
 Node-RED backend
 
 Block diagram of the system.
-![block](Pic/block.png)
+![block](Pic/blockdiagram.png)
