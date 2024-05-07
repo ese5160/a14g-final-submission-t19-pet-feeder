@@ -69,7 +69,7 @@ The Node-RED instance link:
 
 The code repository link:
 
-The Altium 365 link:
+The Altium 365 link:  
 https://upenn-eselabs.365.altium.com/designs/EA1CCED6-8C54-4405-B127-DA898DF3EFB7#design
 
 ## 3. Hardware & Software Requirements
@@ -88,3 +88,14 @@ The standalone PCBA, bottom.
 Thermal camera images while the board is running under load.
 ![thermal](Pic/thermal.jpg)
 
+The Altium Board design in 2D view.
+![2D](Pic/board2D.png)
+
+The Altium Board design in 3D view.
+![3D](Pic/board3D.png)
+
+Node-RED dashboard
+
+Node-RED backend
+
+Block diagram of your system.
