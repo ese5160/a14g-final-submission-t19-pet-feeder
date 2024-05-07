@@ -63,6 +63,28 @@ We encountered a lot of unexpected problems on this project both in hardware and
 
 We acquired a wealth of invaluable knowledge throughout our project journey. From the intricacies of PCBA design to the intricacies of programming and firmware uploading, each step presented its own set of challenges and learning opportunities. Notably, we gained significant insights into PCB design and the utilization of FreeRTOS. Additionally, we deepened our understanding of I2C and SPI protocols, which honed our skills in unit testing and debug-thinking, further enriching our learning experience.
 
+### Project links
+
+The Node-RED instance link:
+
+The code repository link:
+
+The Altium 365 link:
+https://upenn-eselabs.365.altium.com/designs/EA1CCED6-8C54-4405-B127-DA898DF3EFB7#design
+
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
+
+The final project photo.
+![final](Pic/finalproject.jpg)
+
+The standalone PCBA, top.
+![top](Pic/pcbtop.jpg)
+
+The standalone PCBA, bottom.
+![bottom](Pic/pcbbottom.jpg)
+
+Thermal camera images while the board is running under load.
+![thermal](Pic/thermal.jpg)
+
